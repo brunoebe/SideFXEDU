@@ -2,7 +2,7 @@
 #context:  sop
 #internal: edu::pascal_pyramid::1.0
 #icon:     SOP/edu::pascal_pyramid::1.0
-#tags:     education math
+#tags:     sidefxedu math
 
 = EDU Pascal Pyramid =
 

@@ -2,7 +2,7 @@
 #context:  sop
 #internal: edu::path_tracing_scene::1.0
 #icon:     SOP/edu::path_tracing_scene::1.0
-#tags:     education rendering
+#tags:     sidefxedu rendering
 
 = EDU Path Tracing Scene =
 

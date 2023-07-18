@@ -2,7 +2,7 @@
 #context:  obj
 #internal: edu::flip_witness_object::1.0
 #icon:     OBJ/edu::flip_witness_object::1.0
-#tags:     education utility visualizer
+#tags:     sidefxedu utility visualizer
 
 = EDU Flip Witness Object =
 

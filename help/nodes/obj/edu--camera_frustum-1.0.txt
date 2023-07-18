@@ -2,7 +2,7 @@
 #context:  obj
 #internal: edu::camera_frustum.1.0
 #icon:     OBJ/edu::camera_frustum::1.0
-#tags:     education camera utility 
+#tags:     sidefxedu camera utility 
 
 = EDU Camera Frustum =
 

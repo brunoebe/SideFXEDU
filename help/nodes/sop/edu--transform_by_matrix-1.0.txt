@@ -2,7 +2,7 @@
 #context:  sop
 #internal: edu::transform_by_matrix::1.0
 #icon:     SOP/edu::transform_by_matrix::1.0
-#tags:     education math utility 
+#tags:     sidefxedu math utility 
 
 = EDU Transform By Matrix =
 

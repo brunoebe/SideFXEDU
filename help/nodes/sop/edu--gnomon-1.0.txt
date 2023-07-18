@@ -2,7 +2,7 @@
 #context:  sop
 #internal: edu::gnomon::1.0
 #icon:     SOP/edu::gnomon::1.0
-#tags:     education utility visualizer
+#tags:     sidefxedu utility visualizer
 
 = EDU Gnomon =
 

@@ -2,7 +2,7 @@
 #context:  sop
 #internal: edu::matrix_visualizer::1.0
 #icon:     SOP/edu::matrix_visualizer::1.0
-#tags:     education math utility visualizer
+#tags:     sidefxedu math utility visualizer
 
 = EDU Matrix Visualizer =
 

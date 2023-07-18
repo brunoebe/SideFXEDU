@@ -2,7 +2,7 @@
 #context:  sop
 #internal: edu::base_vector::1.0
 #icon:     SOP/edu::base_vector::1.0
-#tags:     education utility visualizer
+#tags:     sidefxedu utility visualizer
 
 = EDU Base Vector =
 
