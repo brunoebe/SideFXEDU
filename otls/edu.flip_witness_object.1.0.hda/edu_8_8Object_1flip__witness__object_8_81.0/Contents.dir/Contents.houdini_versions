@@ -1,0 +1,11 @@
+{
+	"values":["20.0.405"
+	],
+	"indexes":{
+		"hdaroot/output0.userdata":0,
+		"hdaroot/ref_voxelsize.userdata":0,
+		"hdaroot/merge3.userdata":0,
+		"hdaroot/ref_particlesep.userdata":0,
+		"hdaroot/ref_particlescale.userdata":0
+	}
+}

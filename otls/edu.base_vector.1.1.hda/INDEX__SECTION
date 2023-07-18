@@ -1,0 +1,15 @@
+Operator:     edu::base_vector::1.1
+Label:        EDU Base Vector
+Path:         oplib:/edu::Sop/base_vector::1.1?edu::Sop/base_vector::1.1
+Icon:         opdef:/edu::Sop/base_vector::1.1?IconSVG
+Table:        Sop
+License:      
+Extra:        inputcolors='1 "RGB 0.700195 0.700195 0.700195" ' outputcolors='1 "RGB 0.700195 0.700195 0.700195" ' 
+User:         
+Inputs:       1 to 1
+Outputs:      2
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Thu Jul 13 12:51:41 2023
+
