@@ -74,12 +74,12 @@ Output 7 |
     Secondary Rays:
         #id: secrays
         The number of Secondary Rays to send into the scene, for each Primary Ray's hit location.
-        For every hit position, Karma will send direct and indirect secondary samples. Direct samples are sent towards lights. 
-        In Karma, Indirect Rays are sent along directions determined by the geometry and shader at the hit position. 
-        Here, this simulator uses a much simpler method: it sends rays randomly in a 180˚ cone angle around the normal at the hit position. 
-        This is for ease of use and better reactivity.
+        For every hit position, Karma will send direct and indirect secondary samples. In Karma, Direct samples are sent towards lights, and Indirect Rays are sent along directions determined by the geometry and shader at the hit position. 
+        Here, this simulator uses a much simpler method: it sends rays randomly in a 180˚ cone angle around the normal at the hit position. This is for ease of use and better reactivity in the viewport.
 
         [See also: Karma User Guide / Secondary samples | https://www.sidefx.com/docs/houdini/solaris/kug/sampling.html#secondary_samples]
+
+        NOTE: Currently this setup does not feature Indirect Sampling quality parameters; only Direct Sampling (see Light Sampling Quality below).
         
     Light Sampling Quality:
         #id: lightSamplingQuality
