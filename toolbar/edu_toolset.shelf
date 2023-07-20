@@ -6,15 +6,15 @@
  a single file. -->
 
   <toolshelf name="edu_toolset" label="SideFX Education">
-    <memberTool name="labs::education_note"/>
-    <memberTool name="labs::number_items"/>
+    <memberTool name="edu::sticky_notes"/>
+    <memberTool name="edu::number_items"/>
     <memberTool name="labs::parameter_diff"/>
     <memberTool name="labs::sticker_placer"/>
     <memberTool name="sidefxedu_create_archive_topnet"/>
   </toolshelf>
 
-  <tool name="labs::education_note" label="Education Note" icon="$SIDEFXLABS/help/icons/stickynote.svg">
-    <helpURL>/shelf/labs--education_note.txt</helpURL>
+  <tool name="edu::sticky_notes" label="Sticky Notes" icon="$SIDEFXEDU/help/icons/stickynote.svg">
+    <helpURL>/shelf/edu--sticky_notes.txt</helpURL>
     <script scriptType="python"><![CDATA[import sidefxedu as module
 
 try:
@@ -26,8 +26,8 @@ except NameError:
 module.createNotes(kwargs)]]></script>
   </tool>
 
-  <tool name="labs::number_items" label="Number Items" icon="$SIDEFXLABS/help/icons/number_items.svg">
-    <helpURL>/shelf/labs--number_items.txt</helpURL>
+  <tool name="edu::number_items" label="Number Items" icon="$SIDEFXEDU/help/icons/number_items.svg">
+    <helpURL>/shelf/edu--number_items.txt</helpURL>
     <script scriptType="python"><![CDATA[import sidefxedu as module
 
 try:
