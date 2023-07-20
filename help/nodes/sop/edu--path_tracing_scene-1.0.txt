@@ -35,5 +35,6 @@ You can use this scene as is, or as a boiler plate to build you own scene.
         Intensity of the fourth light.    
     
 @related
+- [EDU Path Tracing Refractions | edu--path_tracing_refractions-1.0]
 - [EDU Path Tracing Simulator | edu--path_tracing_simulator-1.0]
 - [EDU Portal MIS Bias Simulator | edu--portal_mis_bias_simulator-1.0]

@@ -1,8 +1,8 @@
-= Education Sticky Notes =
+= EDU Sticky Notes =
 
-#internal: labs::education_note
+#internal: edu::sticky_notes
 #icon: stickynote
-#tags: sidefxlabs, util, shelf, education
+#tags: sidefxedu, util, shelf, education
 
 """ This tool creates color coded sticky notes in your network. Use modifiers to change the type of sticky note. """
 

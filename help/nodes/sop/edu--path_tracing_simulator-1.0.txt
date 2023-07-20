@@ -12,7 +12,7 @@ WARNING:
     This node is made for education purposes only.  
     You can use it for other things, but at your own risks.  
 
-@inputs and outputs
+@inputs
 
 Input 1 |
     The scene to render. 
@@ -21,26 +21,28 @@ Input 1 |
         It requires special formatting and attributes. 
         Use the [EDU Path Tracing Scene|] as an example.
 
+@outputs
+
 Output 1 |
-    Rendered pixels
+    Rendered pixels.
 
 Output 2 |
-    Primary rays
+    Primary rays.
 
 Output 3 |
-    Primary hits
+    Primary hits.
 
 Output 4 |
-    Direct rays (Lights)
+    Direct rays (Lights).
 
 Output 5 |
-    Direct samples (Lights)
+    Direct samples (Lights).
 
 Output 6 |
-    Indirect rays (Scene)
+    Indirect rays (Scene).
 
 Output 7 |
-    Indirect samples (Scene)
+    Indirect samples (Scene).
 
 
 @parameters
@@ -106,5 +108,6 @@ Output 7 |
         The pixel to compute or visualize when *Compute single pixel* or *Visualize single pixel* are checked on.    
     
 @related
+- [EDU Path Tracing Refractions | edu--path_tracing_refractions-1.0]
 - [EDU Path Tracing Scene | edu--path_tracing_scene-1.0]
 - [EDU Portal MIS Bias Simulator | edu--portal_mis_bias_simulator-1.0]

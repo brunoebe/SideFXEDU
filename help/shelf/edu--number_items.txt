@@ -1,8 +1,8 @@
-= Labs Number Items  =
+= EDU Number Items  =
 
-#internal: labs::number_items
+#internal: edu::number_items
 #icon: number_items
-#tags: sidefxlabs, util, shelf, education
+#tags: sidefxedu, util, shelf, education
 
 """ Attach a numbered background image to the selected items in the network, and create a quickmark. """
 
