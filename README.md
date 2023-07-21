@@ -40,7 +40,7 @@ Instead of tying the examples as HDAs, we will be generating separate hip files 
 SideFX EDU *optionally* collects data about what tools are used through Google Analytics. We do this in order to focus our resources on the more active tools and therefore be able to help more people. This does *not* track any personal user data such as IP, Name, License use etc. To opt-out of this tracking, you can disable the "Send Anonymous Usage Statistics" toggle under preferences. Additionally, you can bypass this behavior entirely by setting the environment variable "HOUDINI_ANONYMOUS_STATISTICS = 0".
 
 ## Contributors
-### SideFX Education Team
+### SideFX Education and Training Team
 - Bruno Ébé
 
 ### Instructors Community
