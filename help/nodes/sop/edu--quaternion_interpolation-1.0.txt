@@ -1,0 +1,73 @@
+#type:     node
+#context:  sop
+#internal: edu::quaternion_interpolation::1.0
+#icon:     SOP/edu::quaternion_interpolation::1.0
+#tags:     sidefxedu math
+
+= EDU Quaternion Interpolation =
+
+"""This node visualizes the interpolation between two quaternions, as well as their effect on the input objects."""
+
+This HDA is a support tool for a quaternion course to be release in a near future on Houdini Insight.
+It visualizes the quaternion, and its opposite, based on the values the user inputs.
+It's also possible to define a second quaternion to interpolate with, and see the effect of linear as well as spherical interpolation.
+
+@parameters
+
+    == Create Quaternion ==
+
+    Axis:
+        #id: axis
+        Axis used to build the quaternion.
+        
+    === Quaternion 1 ===
+
+    Angle:
+        #id: angle1
+        Angle used to build the first quaternion.
+        
+    Scale:
+        #id: scale1
+        Scale used to build the first quaternion.
+        
+    Negate:
+        #id: negate1
+        Use this checkbox to negate the first quaternion.
+        
+    Interpolation:
+        #id: interpolation
+        How to interpolate between the two quaternions.
+        
+        None: No interpolation. In this mode, quaternion 2 parameters are deactivated.
+            
+        Linear: Interpolates linearly between the two quaternions.
+            
+        Spherical: Interpolates spherically between the two quaternions.
+            
+    Bias:
+        #id: bias
+        The bias of the interpolation.
+        
+    === Quaternion 2 ===
+
+    Shortest Path:
+        #id: shortestpath
+        Whether to use the closest or farthest quaternion to interpolate with.
+        
+    Angle:
+        #id: angle2
+        Angle used to build the second quaternion.
+        
+    Scale:
+        #id: scale2
+        Scale used to build the second quaternion.
+        
+    Negate:
+        #id: negate2
+        Use this checkbox to negate the second quaternion.
+        
+    === Output ===
+
+    Quaternion:
+        #id: quaternion
+        This parameter is used to visualize the resulting quaternion values.
