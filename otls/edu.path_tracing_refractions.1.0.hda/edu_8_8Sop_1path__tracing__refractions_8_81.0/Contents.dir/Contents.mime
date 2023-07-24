@@ -32,13 +32,11 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment "Education tool"
-position -8.58875 -0.904627
-connectornextid 2
-flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
+position -1.4302 -6.07015
+connectornextid 0
+flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
 outputsNamed3
 {
-0 "output1"
-1 "output2"
 }
 inputsNamed3
 {
@@ -209,7 +207,7 @@ label1	[ 0	locks=0 ]	(	"Sub-Network Input #1"	)
 label2	[ 0	locks=0 ]	(	"Sub-Network Input #2"	)
 label3	[ 0	locks=0 ]	(	"Sub-Network Input #3"	)
 label4	[ 0	locks=0 ]	(	"Sub-Network Input #4"	)
-camera	[ 0	locks=0 ]	(	[ camera	/obj/cam1 ] 	)
+camera	[ 8	locks=0 ]	(	[ camera	/obj/cam1 ] 	)
 zpos	[ 0	locks=0 ]	(	[ zpos	10 ] 	)
 definition	[ 0	locks=0 ]	(	[ definition	6 ] 	)
 }
@@ -631,35 +629,30 @@ Content-Type: text/plain
       lefttype = extend
       righttype = extend
       flags = 0
-      start = 41.666666666666664
       segment { length = 0 expr = (ch(\"opacityr\")+ch(\"opacityg\")+ch(\"opacityb\"))/3.0 }
     }
     channel ogl_use_geo_color {
       lefttype = extend
       righttype = extend
       flags = 0
-      start = 41.666666666666664
       segment { length = 0 expr = ch(\"usePointColor\") }
     }
     channel ogl_emitr {
       lefttype = extend
       righttype = extend
       flags = 0
-      start = 41.666666666666664
       segment { length = 0 expr = ch(\"difclrr\") }
     }
     channel ogl_emitg {
       lefttype = extend
       righttype = extend
       flags = 0
-      start = 41.666666666666664
       segment { length = 0 expr = ch(\"difclrg\") }
     }
     channel ogl_emitb {
       lefttype = extend
       righttype = extend
       flags = 0
-      start = 41.666666666666664
       segment { length = 0 expr = ch(\"difclrb\") }
     }
   }
@@ -8675,7 +8668,7 @@ debug_mode	[ 0	locks=0 ]	(	[ debug_mode	1 ] 	)
 isolate	[ 0	locks=0 ]	(	"off"	)
 isopixel	[ 0	locks=0 ]	(	23509	)
 ray_display_prc	[ 0	locks=0 ]	(	0.01	)
-tab_camera	[ 0	locks=0 ]	(	1	1	1	1	1	)
+tab_camera	[ 0	locks=0 ]	(	0	0	0	0	0	)
 camera	[ 8	locks=0 ]	(	`chsop(\"../PIXELS/camera\")`	)
 cam_start	[ 8	locks=0 ]	(	0	)
 camera_focal	[ 8	locks=0 ]	(	[ camera_focal	0 ] 	)
@@ -10657,7 +10650,7 @@ debug_mode	[ 0	locks=0 ]	(	"on"	)
 isolate	[ 0	locks=0 ]	(	"off"	)
 isopixel	[ 0	locks=0 ]	(	58955	)
 ray_display_prc	[ 0	locks=0 ]	(	0.01	)
-tab	[ 0	locks=0 ]	(	1	1	1	1	1	)
+tab	[ 0	locks=0 ]	(	0	0	0	0	0	)
 camera	[ 0	locks=0 ]	(	`chsop(\"../PIXELS/camera\")`	)
 cam_start	[ 0	locks=0 ]	(	1	)
 camera_focal	[ 8	locks=0 ]	(	[ camera_focal	0 ] 	)

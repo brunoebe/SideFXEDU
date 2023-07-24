@@ -7,10 +7,10 @@ Tools.shelf	Tools.shelf
 InternalFileOptions	InternalFileOptions
 Contents.gz	Contents.gz
 DefaultState	DefaultState
-IconSVG	IconSVG
 ViewerStateModule	ViewerStateModule
 ViewerStateInstall	ViewerStateInstall
 ViewerStateUninstall	ViewerStateUninstall
+IconSVG	IconSVG
 ViewerStateName.orig	ViewerStateName.orig
 ExtraFileOptions	ExtraFileOptions
 VHDA	VHDA

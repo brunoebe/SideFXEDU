@@ -1,5 +1,5 @@
 {
-	"values":["19.5.669"
+	"values":["19.5.686"
 	],
 	"indexes":{
 		"hdaroot/name9.userdata":0,
@@ -44,11 +44,11 @@
 		"hdaroot/box1.userdata":0,
 		"hdaroot/name5.userdata":0,
 		"hdaroot/switchif3.userdata":0,
+		"hdaroot/get_luminance/bind1.userdata":0,
 		"hdaroot/attribpromote1.userdata":0,
 		"hdaroot/ends1.userdata":0,
 		"hdaroot/name8.userdata":0,
 		"hdaroot/get_luminance.userdata":0,
-		"hdaroot/get_luminance/bind1.userdata":0,
 		"hdaroot/sphere1.userdata":0
 	}
 }

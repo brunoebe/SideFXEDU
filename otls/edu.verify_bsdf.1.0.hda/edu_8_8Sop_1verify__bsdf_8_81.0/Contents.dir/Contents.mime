@@ -32,9 +32,9 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment "Education tool"
-position -0.170829 -1.20898
+position 4.5184 2.259
 connectornextid 0
-flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
+flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
 outputsNamed3
 {
 }

@@ -1,133 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-dfb81a1e-fc43-480f-8c5f-8580160185e3" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489 642.57">
+<svg id="uuid-3b3fff9e-4314-4278-b410-ffe5ff553d6b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500.5 500.5">
   <defs>
     <style>
-      .uuid-d5526921-5866-4761-bf6a-cf43033926e9, .uuid-12e44899-eba5-4ec8-b374-8e1a3b044380 {
+      .uuid-500e7b8f-a0aa-4c7f-8276-3748778793bb, .uuid-1746e58d-74a5-494b-8253-3773da98b9d7, .uuid-f4e3e2ea-30f7-4113-b9dc-9ccbfa60cd33, .uuid-1b9bbe6e-c64f-468b-a1f7-34a26d2d4ff9, .uuid-8a959cab-3844-4e26-bb74-677fba578a66 {
+        fill: none;
+      }
+
+      .uuid-37fd7ec3-73b8-4816-85bd-35ba82527b8a {
+        clip-path: url(#uuid-44470841-0710-4745-9109-db673e6c1f57);
+      }
+
+      .uuid-e0e2844e-8747-469d-98e1-0d86e8c14fa5 {
+        fill: #ff6700;
+      }
+
+      .uuid-d55fb9dc-ecce-4187-b1f7-08601d12016b, .uuid-90326528-ab52-4559-8249-9617af3e7ef7 {
         fill: #fff;
       }
 
-      .uuid-eeca2c6c-e694-4285-b56b-492c766db4e3 {
-        fill: #332247;
-      }
-
-      .uuid-12e44899-eba5-4ec8-b374-8e1a3b044380, .uuid-0c48b59b-6d4d-4e20-8e45-fc93ed30dabb {
-        stroke-width: 2px;
-      }
-
-      .uuid-12e44899-eba5-4ec8-b374-8e1a3b044380, .uuid-0c48b59b-6d4d-4e20-8e45-fc93ed30dabb, .uuid-ba76e233-66ac-4b52-a57c-889d941088c6 {
+      .uuid-d55fb9dc-ecce-4187-b1f7-08601d12016b, .uuid-90326528-ab52-4559-8249-9617af3e7ef7, .uuid-20f925b5-5c63-41a5-976a-2bd1fe1f6275, .uuid-168a31f6-107f-4404-a09b-1be330560082, .uuid-8a959cab-3844-4e26-bb74-677fba578a66 {
         stroke: #000;
       }
 
-      .uuid-12e44899-eba5-4ec8-b374-8e1a3b044380, .uuid-322b98c2-2eb2-40cd-a9d5-849a5cbdbe23 {
+      .uuid-d55fb9dc-ecce-4187-b1f7-08601d12016b, .uuid-2bf0412d-e56b-4da4-83fe-08b5ff7ddc69 {
         fill-rule: evenodd;
       }
 
-      .uuid-04c71ffb-4f1f-446a-b507-a7a6743cdf8e {
+      .uuid-d55fb9dc-ecce-4187-b1f7-08601d12016b, .uuid-168a31f6-107f-4404-a09b-1be330560082 {
+        stroke-width: 2px;
+      }
+
+      .uuid-a820efda-0d2c-4209-b864-90c873c3f747 {
         opacity: .2;
       }
 
-      .uuid-04c71ffb-4f1f-446a-b507-a7a6743cdf8e, .uuid-562fe535-7200-4add-8392-ea346693e022, .uuid-a0f8def5-0ffa-4f7b-b007-82fc9708cb18, .uuid-92249b4c-7679-4d0e-9258-c7a3e6f986c6 {
+      .uuid-a820efda-0d2c-4209-b864-90c873c3f747, .uuid-f89944b2-6e5d-4646-83b2-51838dcce1fe, .uuid-69c14358-f849-42eb-8be7-f3256dbcdf0c, .uuid-88d9a4ba-8a41-4233-9e71-ffe509240036 {
         isolation: isolate;
       }
 
-      .uuid-04c71ffb-4f1f-446a-b507-a7a6743cdf8e, .uuid-a0f8def5-0ffa-4f7b-b007-82fc9708cb18, .uuid-92249b4c-7679-4d0e-9258-c7a3e6f986c6 {
+      .uuid-a820efda-0d2c-4209-b864-90c873c3f747, .uuid-69c14358-f849-42eb-8be7-f3256dbcdf0c, .uuid-88d9a4ba-8a41-4233-9e71-ffe509240036 {
         fill: #e0e31c;
       }
 
-      .uuid-562fe535-7200-4add-8392-ea346693e022 {
+      .uuid-f89944b2-6e5d-4646-83b2-51838dcce1fe {
         fill: #4797d2;
         opacity: .3;
       }
 
-      .uuid-0c48b59b-6d4d-4e20-8e45-fc93ed30dabb {
-        fill: url(#uuid-ed85cdd6-eae7-4353-b3b0-62eb0ebdcdf3);
-      }
-
-      .uuid-a0f8def5-0ffa-4f7b-b007-82fc9708cb18 {
+      .uuid-69c14358-f849-42eb-8be7-f3256dbcdf0c {
         opacity: .15;
       }
 
-      .uuid-7e0cafcb-48ba-42d3-81fc-443d30212478 {
+      .uuid-e9419e21-a115-47af-8974-a91fbf5ef8a1 {
         fill: #cab39f;
         stroke-miterlimit: 5.54;
         stroke-width: .04px;
       }
 
-      .uuid-7e0cafcb-48ba-42d3-81fc-443d30212478, .uuid-fcd854ba-c6ad-4eb1-82eb-32ce8381501e, .uuid-2db82730-e755-463d-958c-187095f19c6f, .uuid-26962aaa-4637-4188-93a2-2b8040f19d6c {
+      .uuid-e9419e21-a115-47af-8974-a91fbf5ef8a1, .uuid-1746e58d-74a5-494b-8253-3773da98b9d7, .uuid-f4e3e2ea-30f7-4113-b9dc-9ccbfa60cd33, .uuid-1b9bbe6e-c64f-468b-a1f7-34a26d2d4ff9 {
         stroke: #fff;
       }
 
-      .uuid-322b98c2-2eb2-40cd-a9d5-849a5cbdbe23 {
-        fill: url(#uuid-6e6e7331-e93f-4003-9055-8cc085d276b7);
+      .uuid-90326528-ab52-4559-8249-9617af3e7ef7, .uuid-20f925b5-5c63-41a5-976a-2bd1fe1f6275, .uuid-f4e3e2ea-30f7-4113-b9dc-9ccbfa60cd33, .uuid-8a959cab-3844-4e26-bb74-677fba578a66 {
+        stroke-miterlimit: 10;
+      }
+
+      .uuid-90326528-ab52-4559-8249-9617af3e7ef7, .uuid-8a959cab-3844-4e26-bb74-677fba578a66 {
+        stroke-width: .5px;
+      }
+
+      .uuid-88d9a4ba-8a41-4233-9e71-ffe509240036 {
+        opacity: .25;
+      }
+
+      .uuid-2bf0412d-e56b-4da4-83fe-08b5ff7ddc69 {
+        fill: url(#uuid-a9e9982c-19a4-4aac-b3c1-7009bbe6d599);
         stroke: #8b6f00;
         stroke-width: 1px;
       }
 
-      .uuid-92249b4c-7679-4d0e-9258-c7a3e6f986c6 {
-        opacity: .25;
-      }
-
-      .uuid-ba76e233-66ac-4b52-a57c-889d941088c6 {
+      .uuid-20f925b5-5c63-41a5-976a-2bd1fe1f6275 {
         fill: #f60;
       }
 
-      .uuid-ba76e233-66ac-4b52-a57c-889d941088c6, .uuid-2db82730-e755-463d-958c-187095f19c6f {
-        stroke-miterlimit: 10;
-      }
-
-      .uuid-fcd854ba-c6ad-4eb1-82eb-32ce8381501e, .uuid-2db82730-e755-463d-958c-187095f19c6f, .uuid-26962aaa-4637-4188-93a2-2b8040f19d6c {
-        fill: none;
-      }
-
-      .uuid-2db82730-e755-463d-958c-187095f19c6f {
+      .uuid-f4e3e2ea-30f7-4113-b9dc-9ccbfa60cd33 {
         stroke-width: .04px;
       }
 
-      .uuid-26962aaa-4637-4188-93a2-2b8040f19d6c {
+      .uuid-1b9bbe6e-c64f-468b-a1f7-34a26d2d4ff9 {
         stroke-miterlimit: 10.89;
         stroke-width: .04px;
       }
+
+      .uuid-168a31f6-107f-4404-a09b-1be330560082 {
+        fill: url(#uuid-2244b447-b906-4232-925d-bae98d051353);
+      }
     </style>
-    <radialGradient id="uuid-6e6e7331-e93f-4003-9055-8cc085d276b7" cx="-889.72" cy="659.78" fx="-889.72" fy="659.78" r="151.56" gradientTransform="translate(409.97 -1062.08) rotate(-106.66) scale(1.53 -.78) skewX(-1.44)" gradientUnits="userSpaceOnUse">
+    <clipPath id="uuid-44470841-0710-4745-9109-db673e6c1f57">
+      <rect class="uuid-500e7b8f-a0aa-4c7f-8276-3748778793bb" x=".5" y=".5" width="500" height="500"/>
+    </clipPath>
+    <radialGradient id="uuid-a9e9982c-19a4-4aac-b3c1-7009bbe6d599" cx="-887.22" cy="662.28" fx="-887.22" fy="662.28" r="151.56" gradientTransform="translate(415.41 -1056.58) rotate(-106.66) scale(1.53 -.78) skewX(-1.44)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#fcce1b"/>
     </radialGradient>
-    <linearGradient id="uuid-ed85cdd6-eae7-4353-b3b0-62eb0ebdcdf3" x1="-241.35" y1="381.43" x2="-85.46" y2="381.43" gradientTransform="translate(573.47 22.61) scale(1.05 1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="uuid-2244b447-b906-4232-925d-bae98d051353" x1="-238.85" y1="383.93" x2="-82.96" y2="383.93" gradientTransform="translate(573.35 22.61) scale(1.05 1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#000"/>
     </linearGradient>
   </defs>
-  <g id="uuid-bb7fbae4-d2f5-4111-8074-17520f00cda6" data-name="portal MIS bias copy">
-    <g>
-      <polygon id="uuid-4dadab69-4fc4-4f66-bd36-ade11f1dde54" data-name="polygon4566" class="uuid-26962aaa-4637-4188-93a2-2b8040f19d6c" points="145.34 642.54 372.48 536.8 372.48 214.19 145.34 208.68 145.34 642.54"/>
-      <rect id="uuid-3a0cd610-1de7-4a12-b6b3-83b9624df7fe" data-name="rect4568" class="uuid-2db82730-e755-463d-958c-187095f19c6f" x="333.33" y="214.05" width="38.11" height="323.25"/>
-      <polygon id="uuid-8d7072b5-ed2a-46c2-8867-4bcfbabc0939" data-name="polygon4578" class="uuid-7e0cafcb-48ba-42d3-81fc-443d30212478" points="188.98 143.98 182.52 145.39 182.52 210.26 188.98 210.26 188.98 143.98"/>
-      <polygon id="uuid-cac467c4-de6b-45a6-8534-519d5754d62e" data-name="polygon4594" class="uuid-7e0cafcb-48ba-42d3-81fc-443d30212478" points="188.98 210.38 95.58 249.61 95.71 245.91 182.59 210.26 188.98 210.38"/>
-      <polygon id="uuid-569fc774-f929-4286-a119-4cbd871e6013" data-name="polygon4606" class="uuid-562fe535-7200-4add-8392-ea346693e022" points="188.73 210.26 188.73 144.45 95.85 165.42 95.85 249.49 188.73 210.26"/>
-      <polygon id="uuid-02053cbf-86d6-42cd-a532-55992a30c78c" data-name="polygon4620" class="uuid-562fe535-7200-4add-8392-ea346693e022" points="271.2 354.5 410.86 384.05 335.46 494.35 156.44 451.24 271.2 354.5"/>
-      <polygon id="uuid-8640dcc4-ca4a-4470-807e-8f3e9aabbc78" data-name="polygon4634" class="uuid-a0f8def5-0ffa-4f7b-b007-82fc9708cb18" points="189.55 210.07 189.55 143.87 410.53 384.38 271.83 354.85 189.55 210.07"/>
-      <polygon id="uuid-a1b56597-e9a5-4aa7-b774-4e4c3df39370" data-name="polygon4656" class="uuid-92249b4c-7679-4d0e-9258-c7a3e6f986c6" points="94.48 249.1 94.48 164.44 334.45 495.54 155.65 452.41 94.48 249.1"/>
-      <polygon id="uuid-edb85588-8df0-4405-a4b1-4050c96b4140" data-name="polygon4658" class="uuid-04c71ffb-4f1f-446a-b507-a7a6743cdf8e" points="95.52 250.28 188.87 210.72 271.55 354.31 156.83 451.63 95.52 250.28"/>
-      <polygon id="uuid-65afa1b9-53f3-4715-bde5-5aeaee449868" data-name="polygon4660" class="uuid-a0f8def5-0ffa-4f7b-b007-82fc9708cb18" points="95.12 164.44 187.69 143.87 409.99 384.38 334.05 493.55 95.12 164.44"/>
-    </g>
-    <g id="uuid-4df36dd0-9bd4-4896-83c8-98f9ef2a0051" data-name="layer1">
-      <path id="uuid-b1e13723-ace2-4933-a696-9e9b8eb0e9b0" data-name="path2393" class="uuid-322b98c2-2eb2-40cd-a9d5-849a5cbdbe23" d="m127.15,170.04l138.91,65.97c1.77.6,2.85,4.7,1.57,5.97l-92.3,119.54,64.9,15.75,5.67-25.57,68.05,74.06-88.03,23.83,5.94-30.43-80.22-36.39c-6.98-2.91-16.72-11.22-5.9-23.77l97.87-114.74-116.46-74.2"/>
-    </g>
-    <g id="uuid-b75bc535-8938-4ffa-9c97-088981cd8450" data-name="layer2">
-      <rect id="uuid-0df22a3f-e5d1-40e6-b7ed-047805b79284" data-name="rect23079" class="uuid-0c48b59b-6d4d-4e20-8e45-fc93ed30dabb" x="316.12" y="353.04" width="171.88" height="101.99"/>
-      <path id="uuid-b615a304-432c-4c50-b223-0aedda8e4da6" data-name="path23195" class="uuid-fcd854ba-c6ad-4eb1-82eb-32ce8381501e" d="m403.49,451.47v-94.14"/>
-      <path id="uuid-cd157441-a374-4755-910f-9bd92d123fdc" data-name="path23191" class="uuid-12e44899-eba5-4ec8-b374-8e1a3b044380" d="m375.55,316.59h55.87l-27.93,48.38-27.93-48.38Z"/>
-      <path id="uuid-598aa6db-f45d-47bb-90af-2c66d18d9909" data-name="path23219" class="uuid-12e44899-eba5-4ec8-b374-8e1a3b044380" d="m375.55,488h55.87l-27.93-48.38-27.93,48.38Z"/>
+  <g id="uuid-35e8c294-cd01-4da6-a20a-af1f73ca6549" data-name="portal MIS bias copy">
+    <g class="uuid-37fd7ec3-73b8-4816-85bd-35ba82527b8a">
+      <g>
+        <polygon id="uuid-ff168408-aaab-42d5-a4fc-e9fd36a27a12" data-name="polygon4566" class="uuid-1b9bbe6e-c64f-468b-a1f7-34a26d2d4ff9" points="147.84 645.04 374.98 539.3 374.98 216.69 147.84 211.18 147.84 645.04"/>
+        <rect id="uuid-44b523e0-7629-43a0-9ada-cf75f01544b9" data-name="rect4568" class="uuid-f4e3e2ea-30f7-4113-b9dc-9ccbfa60cd33" x="335.83" y="216.55" width="38.11" height="323.25"/>
+        <polygon id="uuid-f7f7b9e6-81ee-4019-b127-e2beb1244607" data-name="polygon4578" class="uuid-e9419e21-a115-47af-8974-a91fbf5ef8a1" points="191.48 146.48 185.02 147.89 185.02 212.76 191.48 212.76 191.48 146.48"/>
+        <polygon id="uuid-5b1d7ce7-9bc4-400b-9a08-b5fe15b89d78" data-name="polygon4594" class="uuid-e9419e21-a115-47af-8974-a91fbf5ef8a1" points="191.48 212.88 98.08 252.11 98.21 248.41 185.09 212.76 191.48 212.88"/>
+        <polygon id="uuid-cf7775f9-fd7f-498d-98b6-375782da4e10" data-name="polygon4606" class="uuid-f89944b2-6e5d-4646-83b2-51838dcce1fe" points="191.23 212.76 191.23 146.95 98.35 167.92 98.35 251.99 191.23 212.76"/>
+        <polygon id="uuid-1cde9295-33be-4c56-ab4c-8402d061ed4c" data-name="polygon4620" class="uuid-f89944b2-6e5d-4646-83b2-51838dcce1fe" points="273.7 357 413.36 386.55 337.96 496.85 158.94 453.74 273.7 357"/>
+        <polygon id="uuid-bdbbb1d6-cca2-49c1-aa78-18e1c5bf7e15" data-name="polygon4634" class="uuid-69c14358-f849-42eb-8be7-f3256dbcdf0c" points="192.05 212.57 192.05 146.37 413.03 386.88 274.33 357.35 192.05 212.57"/>
+        <polygon id="uuid-19f0e25b-e354-4205-8593-a869cd43b201" data-name="polygon4656" class="uuid-88d9a4ba-8a41-4233-9e71-ffe509240036" points="96.98 251.6 96.98 166.94 336.95 498.04 158.15 454.91 96.98 251.6"/>
+        <polygon id="uuid-98d3b5a6-b0e3-4b9f-a3a2-133dd5082a60" data-name="polygon4658" class="uuid-a820efda-0d2c-4209-b864-90c873c3f747" points="98.02 252.78 191.37 213.22 274.05 356.81 159.33 454.13 98.02 252.78"/>
+        <polygon id="uuid-a82290fc-e189-488b-8ac4-5d850bbe2ac9" data-name="polygon4660" class="uuid-69c14358-f849-42eb-8be7-f3256dbcdf0c" points="97.62 166.94 190.19 146.37 412.49 386.88 336.55 496.05 97.62 166.94"/>
+      </g>
+      <g id="uuid-87905e53-6df5-4ae6-aac8-11daf04671c4" data-name="layer1">
+        <path id="uuid-0fbc72a8-50f5-41d9-94f0-a6036105e131" data-name="path2393" class="uuid-2bf0412d-e56b-4da4-83fe-08b5ff7ddc69" d="m129.65,172.54l138.91,65.97c1.77.6,2.85,4.7,1.57,5.97l-92.3,119.54,64.9,15.75,5.67-25.57,68.05,74.06-88.03,23.83,5.94-30.43-80.22-36.39c-6.98-2.91-16.72-11.22-5.9-23.77l97.87-114.74-116.46-74.2"/>
+      </g>
+      <g id="uuid-be6962ec-10ca-42f2-a1f7-553d892e2b16" data-name="layer2">
+        <rect id="uuid-578e3e7d-dd3e-4ce6-9c3f-630c780286a3" data-name="rect23079" class="uuid-168a31f6-107f-4404-a09b-1be330560082" x="318.62" y="355.54" width="171.88" height="101.99"/>
+        <path id="uuid-726d845a-7e2a-4727-973c-39569693b08b" data-name="path23195" class="uuid-1746e58d-74a5-494b-8253-3773da98b9d7" d="m405.99,453.97v-94.14"/>
+        <path id="uuid-b1d57b3c-98fe-466f-bbb9-974d92ba3fb7" data-name="path23191" class="uuid-d55fb9dc-ecce-4187-b1f7-08601d12016b" d="m378.05,319.09h55.87l-27.93,48.38-27.93-48.38Z"/>
+        <path id="uuid-af0d7566-1be5-4549-8db9-13a956618366" data-name="path23219" class="uuid-d55fb9dc-ecce-4187-b1f7-08601d12016b" d="m378.05,490.5h55.87l-27.93-48.38-27.93,48.38Z"/>
+      </g>
     </g>
   </g>
-  <g id="uuid-8850fcdd-4081-4d82-a6f7-b07bd819cb67" data-name="edu_sticker">
+  <g id="uuid-73889c47-824b-411c-9b1b-4da4d9abb677" data-name="EDU HAT">
+    <circle class="uuid-20f925b5-5c63-41a5-976a-2bd1fe1f6275" cx="102.91" cy="102.91" r="102.41"/>
     <g>
-      <circle class="uuid-eeca2c6c-e694-4285-b56b-492c766db4e3" cx="101.14" cy="101.14" r="101.14"/>
-      <path class="uuid-ba76e233-66ac-4b52-a57c-889d941088c6" d="m45.66,87.27l54.78,23.61,54.78-23.61v33.66c0,1.75-.68,3.44-1.93,4.81h0c-26.95,29.51-78.75,29.51-105.7,0h0c-1.25-1.37-1.93-3.07-1.93-4.81v-33.66Z"/>
-      <path class="uuid-ba76e233-66ac-4b52-a57c-889d941088c6" d="m33.5,93.31l-.32,45.1c-.92.09-2.29,1.36-2.47,2.39l-1.74,9.66c-.13.73-.52,1.39-1.11,1.84l-.6.47c-.79.62-.58,1.89.37,2.21l7.38,2.49c.89.3,1.85-.15,2.2-1.03h0c1.07-2.7,1.42-5.44,1.62-8.5v-3.51c0-2.16-.77-5.04-2.24-5.63l.4-44.95c-.73-.67-2.63-.98-3.5-.54Z"/>
-      <path class="uuid-ba76e233-66ac-4b52-a57c-889d941088c6" d="m192.23,83.62l-88.84-38.14c-1.44-.62-3.07-.62-4.5,0L10.05,83.62c-1.36.58-1.36,2.5,0,3.08l88.84,38.14c1.44.62,3.07.62,4.5,0l88.84-38.14c1.36-.58,1.36-2.5,0-3.08Z"/>
-      <path class="uuid-d5526921-5866-4761-bf6a-cf43033926e9" d="m131.49,96.73c5.96-6.41,5.69-15.25-3.52-22.7-5.83-4.72-15.6-12.79-41.03-15.82-.24-.03-5.84-.79-14.08-1.06l-12.05,5.18c8.55-.1,15.93.53,20.31.92,14.97,1.34,22.62,4.67,31.61,10.69,8.63,5.8,7.4,14.91-.07,19.85-9.98,6.6-22.29,9.44-41.23,9.25-17.42-.18-31.23-7.64-33.67-12.84-2.47-5.21-2.96-9.31,9.14-13.52,12.78-4.45,30.25-1.91,37.38,1.72,8.53,4.32,5.55,9.24-1.65,10.63-8.23,1.6-17.81.15-17.81-2.77-.03-4.2,7.6-4.11,7.6-4.11,0,0-17.24-5.52-23.72,3.04-5.96,7.87,19.74,14.17,37.98,11.06,10.15-1.72,31.7-7.46,12.57-21.08-11.2-7.99-34.81-9.3-53.05-6.56l-23.52,10.1c-2.4,3.77-1.79,7.9-.17,11.34.31.66.75,1.38,1.28,2.13l39.85,17.11c1.17.14,2.34.27,3.57.38,29.51,2.56,57.36-5.46,64.29-12.93Z"/>
-      <ellipse class="uuid-ba76e233-66ac-4b52-a57c-889d941088c6" cx="34.62" cy="138.29" rx="2.97" ry="3"/>
+      <g>
+        <path class="uuid-90326528-ab52-4559-8249-9617af3e7ef7" d="m34.42,103.17l-.33,45.67c-.93.09-2.32,1.37-2.51,2.42l-1.76,9.78c-.13.74-.53,1.4-1.12,1.87l-.61.48c-.8.63-.59,1.91.38,2.24l7.48,2.52c.9.3,1.87-.15,2.23-1.04h0c1.08-2.74,1.43-5.51,1.64-8.61v-3.56c0-2.19-.78-5.1-2.26-5.71l.41-45.52c-.73-.67-2.66-.99-3.55-.54Z"/>
+        <ellipse class="uuid-90326528-ab52-4559-8249-9617af3e7ef7" cx="35.55" cy="148.72" rx="3" ry="3.04"/>
+      </g>
+      <path class="uuid-90326528-ab52-4559-8249-9617af3e7ef7" d="m46.73,93.77l55.47,23.9,55.47-23.9v34.08c0,1.77-.69,3.48-1.96,4.87h0c-27.28,29.88-79.73,29.88-107.02,0h0c-1.27-1.39-1.96-3.1-1.96-4.87v-34.08Z"/>
+      <path class="uuid-90326528-ab52-4559-8249-9617af3e7ef7" d="m195.18,90.09l-90.02-38.65c-1.44-.62-3.07-.62-4.5,0L10.63,90.09c-1.36.58-1.36,2.5,0,3.08l90.02,38.65c1.44.62,3.07.62,4.5,0l90.02-38.65c1.36-.58,1.36-2.5,0-3.08Z"/>
+      <path class="uuid-e0e2844e-8747-469d-98e1-0d86e8c14fa5" d="m134.66,103.55c6.13-6.59,5.85-15.67-3.62-23.33-5.99-4.85-16.04-13.15-42.16-16.26-.25-.03-6-.81-14.47-1.09l-12.39,5.32c8.79-.11,16.38.55,20.87.95,15.39,1.38,23.24,4.8,32.48,10.99,8.87,5.96,7.61,15.32-.07,20.4-10.26,6.78-22.91,9.7-42.38,9.5-17.9-.18-32.09-7.85-34.61-13.19-2.54-5.35-3.04-9.57,9.39-13.9,13.13-4.57,31.09-1.96,38.42,1.77,8.77,4.44,5.7,9.5-1.7,10.93-8.46,1.64-18.3.15-18.3-2.85-.03-4.31,7.81-4.22,7.81-4.22,0,0-17.72-5.68-24.38,3.12-6.12,8.09,20.29,14.56,39.04,11.37,10.43-1.77,32.58-7.66,12.92-21.66-11.51-8.21-35.78-9.56-54.52-6.75l-24.18,10.38c-2.46,3.87-1.83,8.12-.18,11.65.32.68.77,1.41,1.31,2.18l40.96,17.59c1.2.14,2.4.28,3.67.39,30.33,2.63,58.94-5.61,66.07-13.29Z"/>
+      <path class="uuid-8a959cab-3844-4e26-bb74-677fba578a66" d="m195.18,90.09l-90.02-38.65c-1.44-.62-3.07-.62-4.5,0L10.63,90.09c-1.36.58-1.36,2.5,0,3.08l90.02,38.65c1.44.62,3.07.62,4.5,0l90.02-38.65c1.36-.58,1.36-2.5,0-3.08Z"/>
     </g>
   </g>
 </svg>

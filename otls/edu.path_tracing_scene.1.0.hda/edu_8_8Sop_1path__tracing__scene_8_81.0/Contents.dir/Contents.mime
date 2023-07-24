@@ -32,12 +32,11 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment "Education tool"
-position -5.64072 -4.65388
-connectornextid 1
+position -1.4302 -3.38515
+connectornextid 0
 flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
 outputsNamed3
 {
-0 "output1"
 }
 inputsNamed3
 {
@@ -148,160 +147,6 @@ stat
 }
 color UT_Color RGB 1 0.969 0.522 
 end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/attribnoise1.init"
-Content-Type: text/plain
-
-type = attribnoise::2.0
-matchesdef = 1
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/attribnoise1.def"
-Content-Type: text/plain
-
-sopflags sopflags = 
-comment ""
-position -7.9216 -3.77119
-connectornextid 2
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
-outputsNamed3
-{
-1 "output1"
-}
-inputsNamed3
-{
-0 	color4 1 1 "input1"
-}
-inputs
-{
-0 	color4 0 1
-}
-stat
-{
-  create -1
-  modify -1
-  author Bruno_Ebe@obelix
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/attribnoise1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-folder0	[ 0	locks=0 ]	(	0	)
-group	[ 0	locks=0 ]	(	""	)
-doblend	[ 0	locks=0 ]	(	"off"	)
-blendweight	[ 0	locks=0 ]	(	1	)
-blendmode	[ 0	locks=0 ]	(	"value"	)
-blendattrib	[ 0	locks=0 ]	(	mask	)
-attribtype	[ 0	locks=0 ]	(	"vec"	)
-attribs	[ 0	locks=0 ]	(	Cd	)
-componentscope	[ 0	locks=0 ]	(	111	)
-class	[ 0	locks=0 ]	(	"point"	)
-displace	[ 0	locks=0 ]	(	"off"	)
-displaceattrib	[ 0	locks=0 ]	(	N	)
-folder1	[ 0	locks=0 ]	(	0	)
-operation	[ 0	locks=0 ]	(	"set"	)
-noiserange	[ 0	locks=0 ]	(	"positive"	)
-amplitude	[ 0	locks=0 ]	(	1	)
-amplitudev	[ 0	locks=0 ]	(	1	)
-amplitudetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
-amplitudescalev	[ 0	locks=0 ]	(	1	1	1	)
-rangemin	[ 0	locks=0 ]	(	0	)
-rangeminv	[ 0	locks=0 ]	(	0	)
-rangemintype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
-rangeminscalev	[ 0	locks=0 ]	(	0	0	0	)
-rangemax	[ 0	locks=0 ]	(	1	)
-rangemaxv	[ 0	locks=0 ]	(	1	)
-rangemaxtype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
-rangemaxscalev	[ 0	locks=0 ]	(	1	1	1	)
-midvalue	[ 0	locks=0 ]	(	0	)
-midvaluev	[ 0	locks=0 ]	(	0	)
-midvaluetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
-midvaluescalev	[ 0	locks=0 ]	(	1	1	1	)
-rangevalue	[ 0	locks=0 ]	(	1	)
-rangevaluev	[ 0	locks=0 ]	(	1	)
-rangevaluetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
-rangevaluescalev	[ 0	locks=0 ]	(	1	1	1	)
-outputraw	[ 0	locks=0 ]	(	"off"	)
-enableremap	[ 0	locks=0 ]	(	"on"	)
-remapramp	[ 0	locks=0 ]	(	6	)
-folder7	[ 0	locks=0 ]	(	0	)
-basis	[ 0	locks=0 ]	(	"value_fast"	)
-locationattrib	[ 0	locks=0 ]	(	P	)
-elementsize	[ 0	locks=0 ]	(	2.5	)
-elementsizetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
-elementscale	[ 0	locks=0 ]	(	1	1	1	)
-offset	[ 0	locks=0 ]	(	6	)
-offsettype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
-offsetv	[ 0	locks=0 ]	(	0	0	0	)
-usenoiseexpression	[ 0	locks=0 ]	(	"off"	)
-noiseexpression	[ 0	locks=0 ]	(	"// Parameters to modify:
-// Location Attribute - pos
-// Element Size - elementsize
-// Offset - offset
-
-"	)
-vex_cwdpath	[ 0	locks=0 ]	(	.	)
-folder6	[ 0	locks=0 ]	(	0	)
-animated	[ 0	locks=0 ]	(	"off"	)
-pulseduration	[ 0	locks=0 ]	(	1	)
-folder4	[ 0	locks=0 ]	(	1	)
-fractal	[ 0	locks=0 ]	(	"fBm"	)
-oct	[ 0	locks=0 ]	(	1	)
-lac	[ 0	locks=0 ]	(	1	)
-rough	[ 0	locks=0 ]	(	0	)
-folder2	[ 0	locks=0 ]	(	0	)
-disp	[ 0	locks=0 ]	(	0	)
-dispesize	[ 0	locks=0 ]	(	1	)
-gflow	[ 0	locks=0 ]	(	0	)
-flowrot	[ 0	locks=0 ]	(	0	)
-accuml	[ 0	locks=0 ]	(	"off"	)
-accumg	[ 0	locks=0 ]	(	"off"	)
-folder5	[ 0	locks=0 ]	(	1	)
-doclampmin	[ 0	locks=0 ]	(	"off"	)
-clampminvalue	[ 0	locks=0 ]	(	0	)
-doclampmax	[ 0	locks=0 ]	(	"off"	)
-clampmaxvalue	[ 0	locks=0 ]	(	1	)
-normalize	[ 0	locks=0 ]	(	"off"	)
-updatenmls	[ 0	locks=0 ]	(	"on"	)
-remapramp1pos	[ 0	locks=0 ]	(	0	)
-remapramp1value	[ 0	locks=0 ]	(	0	)
-remapramp1interp	[ 0	locks=0 ]	(	"bspline"	)
-remapramp2pos	[ 0	locks=0 ]	(	0.37788018584251404	)
-remapramp2value	[ 0	locks=0 ]	(	0	)
-remapramp2interp	[ 0	locks=0 ]	(	"bspline"	)
-remapramp3pos	[ 0	locks=0 ]	(	0.48847925662994385	)
-remapramp3value	[ 0	locks=0 ]	(	0	)
-remapramp3interp	[ 0	locks=0 ]	(	"bspline"	)
-remapramp4pos	[ 0	locks=0 ]	(	0.53456223011016846	)
-remapramp4value	[ 0	locks=0 ]	(	1	)
-remapramp4interp	[ 0	locks=0 ]	(	"bspline"	)
-remapramp5pos	[ 0	locks=0 ]	(	0.58294928073883057	)
-remapramp5value	[ 0	locks=0 ]	(	1	)
-remapramp5interp	[ 0	locks=0 ]	(	"bspline"	)
-remapramp6pos	[ 0	locks=0 ]	(	1	)
-remapramp6value	[ 0	locks=0 ]	(	1	)
-remapramp6interp	[ 0	locks=0 ]	(	"bspline"	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/attribnoise1.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":""
-	}
-}
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="hdaroot/get_luminance.init"
@@ -1139,6 +984,176 @@ Content-Type: text/plain
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/attribnoise1.init"
+Content-Type: text/plain
+
+type = attribnoise::2.0
+matchesdef = 1
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/attribnoise1.def"
+Content-Type: text/plain
+
+sopflags sopflags = 
+comment ""
+position -7.9216 -3.77119
+connectornextid 2
+flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
+outputsNamed3
+{
+1 "output1"
+}
+inputsNamed3
+{
+0 	color4 1 1 "input1"
+}
+inputs
+{
+0 	color4 0 1
+}
+stat
+{
+  create -1
+  modify -1
+  author Bruno_Ebe@obelix
+  access 0777
+}
+color UT_Color RGB 0.8 0.8 0.8 
+delscript ""
+exprlanguage hscript
+end
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/attribnoise1.parm"
+Content-Type: text/plain
+
+{
+version 0.8
+folder0	[ 0	locks=0 ]	(	0	)
+group	[ 0	locks=0 ]	(	""	)
+doblend	[ 0	locks=0 ]	(	"off"	)
+blendweight	[ 0	locks=0 ]	(	1	)
+blendmode	[ 0	locks=0 ]	(	"value"	)
+blendattrib	[ 0	locks=0 ]	(	mask	)
+attribtype	[ 0	locks=0 ]	(	"vec"	)
+attribs	[ 0	locks=0 ]	(	Cd	)
+componentscope	[ 0	locks=0 ]	(	111	)
+class	[ 0	locks=0 ]	(	"point"	)
+displace	[ 0	locks=0 ]	(	"off"	)
+displaceattrib	[ 0	locks=0 ]	(	N	)
+folder1	[ 0	locks=0 ]	(	0	)
+operation	[ 0	locks=0 ]	(	"set"	)
+noiserange	[ 0	locks=0 ]	(	"positive"	)
+amplitude	[ 0	locks=0 ]	(	1	)
+amplitudev	[ 0	locks=0 ]	(	1	)
+amplitudetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
+amplitudescalev	[ 0	locks=0 ]	(	1	1	1	)
+rangemin	[ 0	locks=0 ]	(	0	)
+rangeminv	[ 0	locks=0 ]	(	0	)
+rangemintype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
+rangeminscalev	[ 0	locks=0 ]	(	0	0	0	)
+rangemax	[ 0	locks=0 ]	(	1	)
+rangemaxv	[ 0	locks=0 ]	(	1	)
+rangemaxtype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
+rangemaxscalev	[ 0	locks=0 ]	(	1	1	1	)
+midvalue	[ 0	locks=0 ]	(	0	)
+midvaluev	[ 0	locks=0 ]	(	0	)
+midvaluetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
+midvaluescalev	[ 0	locks=0 ]	(	1	1	1	)
+rangevalue	[ 0	locks=0 ]	(	1	)
+rangevaluev	[ 0	locks=0 ]	(	1	)
+rangevaluetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
+rangevaluescalev	[ 0	locks=0 ]	(	1	1	1	)
+outputraw	[ 0	locks=0 ]	(	"off"	)
+enableremap	[ 0	locks=0 ]	(	"on"	)
+remapramp	[ 0	locks=0 ]	(	6	)
+folder7	[ 0	locks=0 ]	(	0	)
+basis	[ 0	locks=0 ]	(	"value_fast"	)
+locationattrib	[ 0	locks=0 ]	(	P	)
+elementsize	[ 0	locks=0 ]	(	2.5	)
+elementsizetype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
+elementscale	[ 0	locks=0 ]	(	1	1	1	)
+offset	[ 0	locks=0 ]	(	6	)
+offsettype	[ 0	locks=0 ]	(	"BUTTONS_decompose_transforms"	)
+offsetv	[ 0	locks=0 ]	(	0	0	0	)
+usenoiseexpression	[ 0	locks=0 ]	(	"off"	)
+noiseexpression	[ 0	locks=0 ]	(	"// Parameters to modify:
+// Location Attribute - pos
+// Element Size - elementsize
+// Offset - offset
+
+"	)
+vex_cwdpath	[ 0	locks=0 ]	(	.	)
+folder6	[ 0	locks=0 ]	(	0	)
+animated	[ 0	locks=0 ]	(	"off"	)
+pulseduration	[ 0	locks=0 ]	(	1	)
+folder4	[ 0	locks=0 ]	(	1	)
+fractal	[ 0	locks=0 ]	(	"fBm"	)
+oct	[ 0	locks=0 ]	(	1	)
+lac	[ 0	locks=0 ]	(	1	)
+rough	[ 0	locks=0 ]	(	0	)
+folder2	[ 0	locks=0 ]	(	0	)
+disp	[ 0	locks=0 ]	(	0	)
+dispesize	[ 0	locks=0 ]	(	1	)
+gflow	[ 0	locks=0 ]	(	0	)
+flowrot	[ 0	locks=0 ]	(	0	)
+accuml	[ 0	locks=0 ]	(	"off"	)
+accumg	[ 0	locks=0 ]	(	"off"	)
+folder5	[ 0	locks=0 ]	(	1	)
+doclampmin	[ 0	locks=0 ]	(	"off"	)
+clampminvalue	[ 0	locks=0 ]	(	0	)
+doclampmax	[ 0	locks=0 ]	(	"off"	)
+clampmaxvalue	[ 0	locks=0 ]	(	1	)
+normalize	[ 0	locks=0 ]	(	"off"	)
+updatenmls	[ 0	locks=0 ]	(	"on"	)
+remapramp1pos	[ 0	locks=0 ]	(	0	)
+remapramp1value	[ 0	locks=0 ]	(	0	)
+remapramp1interp	[ 0	locks=0 ]	(	"bspline"	)
+remapramp2pos	[ 0	locks=0 ]	(	0.37788018584251404	)
+remapramp2value	[ 0	locks=0 ]	(	0	)
+remapramp2interp	[ 0	locks=0 ]	(	"bspline"	)
+remapramp3pos	[ 0	locks=0 ]	(	0.48847925662994385	)
+remapramp3value	[ 0	locks=0 ]	(	0	)
+remapramp3interp	[ 0	locks=0 ]	(	"bspline"	)
+remapramp4pos	[ 0	locks=0 ]	(	0.53456223011016846	)
+remapramp4value	[ 0	locks=0 ]	(	1	)
+remapramp4interp	[ 0	locks=0 ]	(	"bspline"	)
+remapramp5pos	[ 0	locks=0 ]	(	0.58294928073883057	)
+remapramp5value	[ 0	locks=0 ]	(	1	)
+remapramp5interp	[ 0	locks=0 ]	(	"bspline"	)
+remapramp6pos	[ 0	locks=0 ]	(	1	)
+remapramp6value	[ 0	locks=0 ]	(	1	)
+remapramp6interp	[ 0	locks=0 ]	(	"bspline"	)
+}
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/attribnoise1.userdata"
+Content-Type: text/plain
+
+{
+	"___Version___":{
+		"type":"string",
+		"value":""
+	}
+}
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/get_luminance.order"
+Content-Type: text/plain
+
+4
+geometryvopglobal1
+geometryvopoutput1
+luminance1
+bind1
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/get_luminance.net"
+Content-Type: text/plain
+
+1
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="hdaroot/attribfrommap1.init"
 Content-Type: text/plain
 
@@ -1239,22 +1254,6 @@ Content-Type: text/plain
 		"value":"dynamics_fuelfromtexture"
 	}
 }
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/get_luminance.order"
-Content-Type: text/plain
-
-4
-geometryvopglobal1
-geometryvopoutput1
-luminance1
-bind1
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/get_luminance.net"
-Content-Type: text/plain
-
-1
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="hdaroot/sphere1.init"

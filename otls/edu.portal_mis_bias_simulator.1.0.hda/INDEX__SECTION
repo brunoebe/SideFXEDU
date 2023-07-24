@@ -4,11 +4,11 @@ Path:         oplib:/edu::Sop/portal_mis_bias_simulator::1.0?edu::Sop/portal_mis
 Icon:         opdef:/edu::Sop/portal_mis_bias_simulator::1.0?IconSVG
 Table:        Sop
 License:      
-Extra:        
+Extra:        inputcolors='3 "RGB 0.700195 0.700195 0.700195" "RGB 0.700195 0.700195 0.700195" "RGB 0.700195 0.700195 0.700195" ' outputcolors='1 "RGB 0.700195 0.700195 0.700195" ' 
 User:         
 Inputs:       0 to 3
 Subnet:       true
 Python:       false
 Empty:        false
-Modified:     Thu Jul 13 13:21:50 2023
+Modified:     Mon Jul 24 15:32:04 2023
 

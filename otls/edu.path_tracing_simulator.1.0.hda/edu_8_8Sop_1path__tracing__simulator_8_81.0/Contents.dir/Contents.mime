@@ -31,26 +31,18 @@ Content-Disposition: attachment; filename="hdaroot.def"
 Content-Type: text/plain
 
 sopflags sopflags = 
-comment ""
-position -5.64072 -5.7302
-connectornextid 7
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
+comment "Education tool"
+position -1.4302 -4.19515
+connectornextid 0
+flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
 outputsNamed3
 {
-1 "output1"
-2 "output2"
-3 "output3"
-4 "output4"
-5 "output5"
-6 "output6"
 }
 inputsNamed3
 {
-0 	edu_path_tracing_scene1 0 1 "input1"
 }
 inputs
 {
-0 	edu_path_tracing_scene1 0 1
 }
 stat
 {
