@@ -90,17 +90,17 @@ Content-Type: text/plain
 
 text "Visualize a plane containing the quaternion and origin from the 4D quaternion space to help illustrate interplation.
 
-For any rotation and scale there are two quaternions that can describe it, q, and -q.  These are represented by pink and gray dots respectively.
+For any rotation and scale there are two quaternions that can describe it, q, and -q.  These are represented by orange and gray dots respectively.
 
-The red dot represents the quaternion generated from interpolating the two input quaternions and ultimately used to rotate the geometry.
+The green dot represents the quaternion generated from interpolating the two input quaternions and ultimately used to rotate the geometry.
 "
-position -2.824 6.32739
+position -1.26007 6.21215
 size 4.64566 4.9721
 flags = minimize off
 stat
 {
   create 1690218661
-  modify 1690218673
+  modify 1690221130
   author sidefx@asterix.local
   access 0777
 }
@@ -650,7 +650,7 @@ vector4 make_q(const vector axis; const float angle; const float scale; const in
     vector4 q = sqrt(scale) * quaternion(angle, axis);
     if(negate)
         q = -q;
-    addpt(axis, q, set(0.75, 0.25, 0.25));
+    addpt(axis, q, set(1.0, 0.5, 0.0));
     addpt(axis, -q, set(0.5, 0.5, 0.5));
     return q;
 }
@@ -676,7 +676,7 @@ if(interpolation == \"lerp\" || interpolation == \"slerp\")
         float mag2 = length(q2);
         q = slerp_without_closest_test(q1/mag1, q2/mag2, bias) * mag1 * pow(mag2/mag1, bias);
     }
-    addpt(axis, q, set(1, 0, 0));
+    addpt(axis, q, set(0.0, 1.0, 0.6));
 }
 
 p@quaternion_q = q;"	)
@@ -693,7 +693,7 @@ vex_matchattrib	[ 0	locks=0 ]	(	id	)
 vex_inplace	[ 0	locks=0 ]	(	"off"	)
 vex_selectiongroup	[ 0	locks=0 ]	(	""	)
 vex_precision	[ 0	locks=0 ]	(	auto	)
-folder1	[ 0	locks=0 ]	(	2	2	2	)
+folder1	[ 0	locks=0 ]	(	0	0	0	)
 axis	[ 0	locks=0 ]	(	[ axisx	0 ] 	[ axisy	0 ] 	[ axisz	1 ] 	)
 folder2	[ 0	locks=0 ]	(	0	)
 angle1	[ 0	locks=0 ]	(	[ angle1	0 ] 	)

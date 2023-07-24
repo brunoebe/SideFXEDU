@@ -8,9 +8,19 @@
 
 """This node visualizes the interpolation between two quaternions, as well as their effect on the input objects."""
 
-This HDA is a support tool for a quaternion course to be release in a near future on Houdini Insight.
-It visualizes the quaternion, and its opposite, based on the values the user inputs.
-It's also possible to define a second quaternion to interpolate with, and see the effect of linear as well as spherical interpolation.
+WARNING:
+    This node is made for education purposes only. 
+    You can use it for other things, but at your own risks.
+
+NOTE:
+    This HDA is a support tool for a quaternion course to be release in a near future on Houdini Insight.
+
+Visualize a plane containing the quaternion and origin from the 4D quaternion space to help illustrate interplation.
+
+For any rotation and scale there are two quaternions that can describe it, q, and -q.  These are represented by orange and gray dots respectively.
+
+The green dot represents the quaternion generated from interpolating the two input quaternions and ultimately used to rotate the geometry.
+
 
 @parameters
 
