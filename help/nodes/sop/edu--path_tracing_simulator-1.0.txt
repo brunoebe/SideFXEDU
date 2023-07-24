@@ -12,6 +12,16 @@ WARNING:
     This node is made for education purposes only.  
     You can use it for other things, but at your own risks.  
 
+== Overview ==
+This node takes objects with special formatting and attributes as an input (see the [EDU Path Tracing Scene|edu--path_tracing_scene-1.0] as an example) and outputs primary and secondary rays and samples. This is useful to illustrate how a path tracer is working.
+
+
+TIP:
+    Please refer to the file `$SIDEFXEDU/hip/path_tracing_simulator.hip` as an example on how to use this HDA.
+
+Note that this simulator is only an illustration, it does not use any of the code and algorithms from our Karma renderengine. 
+Rays are built with viewport reactivity in mind, not accuracy. When increasing the parameters, the exponential increase in the amount of rays is roughly similar to the one you would get in Karma, but not the same. This is useful to get a feeling of how much butterfly effect a tiny change in a parameter can have on the render time, but *it is NOT* a correct estimation of the amount of rays you would get in Karma with the same parameter values.
+
 @inputs
 
 Input 1 |
@@ -19,7 +29,7 @@ Input 1 |
     
     NOTE:
         It requires special formatting and attributes. 
-        Use the [EDU Path Tracing Scene|] as an example.
+        Use the [EDU Path Tracing Scene|edu--path_tracing_scene-1.0] as an example.
 
 @outputs
 
