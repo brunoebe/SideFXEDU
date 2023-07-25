@@ -32,9 +32,9 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment "Education tool"
-position -1.7152 0.93985
+position 0 5.55112e-17
 connectornextid 0
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
+flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
 outputsNamed3
 {
 }
@@ -387,7 +387,7 @@ t	[ 8	locks=3 ]	(	0	0	[ tz	0 ] 	)
 r	[ 0	locks=0 ]	(	0	0	0	)
 rad	[ 0	locks=3 ]	(	0	1	)
 radscale	[ 8	locks=0 ]	(	[ radscale	1 ] 	)
-height	[ 0	locks=0 ]	(	0.20000000000000001	)
+height	[ 0	locks=0 ]	(	0.2	)
 rows	[ 0	locks=0 ]	(	2	)
 cols	[ 0	locks=0 ]	(	12	)
 orderu	[ 0	locks=0 ]	(	4	)
@@ -1429,7 +1429,7 @@ t	[ 0	locks=0 ]	(	0	0	0	)
 r	[ 0	locks=0 ]	(	0	90	0	)
 s	[ 0	locks=0 ]	(	1	1	)
 tracking	[ 0	locks=0 ]	(	0	0	)
-fontsize	[ 0	locks=0 ]	(	0.20000000000000001	)
+fontsize	[ 0	locks=0 ]	(	0.2	)
 oblique	[ 0	locks=0 ]	(	0	)
 lod	[ 0	locks=0 ]	(	1	)
 autokern	[ 0	locks=0 ]	(	"on"	)
@@ -1717,6 +1717,7 @@ prexform_r	[ 0	locks=0 ]	(	0	0	0	)
 prexform_s	[ 0	locks=0 ]	(	1	1	1	)
 prexform_shear	[ 0	locks=0 ]	(	0	0	0	)
 movecentroid	[ 0	locks=0 ]	(	0	)
+movepivot	[ 0	locks=0 ]	(	0	)
 attribs	[ 0	locks=0 ]	(	*	)
 updatenmls	[ 0	locks=0 ]	(	"off"	)
 updateaffectednmls	[ 0	locks=0 ]	(	"on"	)

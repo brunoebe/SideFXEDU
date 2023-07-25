@@ -32,7 +32,7 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment "Education tool"
-position 0 3.3885
+position -1.01212 2.50576
 connectornextid 0
 flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
 outputsNamed3
@@ -983,7 +983,7 @@ filedef	[ 0	locks=0 ]	(	""	)
 imagedef	[ 0	locks=0 ]	(	""	)
 geometrydef	[ 0	locks=0 ]	(	""	)
 colordef	[ 0	locks=0 ]	(	1	1	1	)
-color4def	[ 0	locks=0 ]	(	0.89999997600000003	0	0	1	)
+color4def	[ 0	locks=0 ]	(	0.899999976	0	0	1	)
 bsdfdef	[ 0	locks=0 ]	(	""	)
 dictdef	[ 0	locks=0 ]	(	""	)
 coshaderdef	[ 0	locks=0 ]	(	""	)
@@ -3991,6 +3991,7 @@ prexform_r	[ 0	locks=0 ]	(	0	0	0	)
 prexform_s	[ 0	locks=0 ]	(	1	1	1	)
 prexform_shear	[ 0	locks=0 ]	(	0	0	0	)
 movecentroid	[ 0	locks=0 ]	(	0	)
+movepivot	[ 0	locks=0 ]	(	0	)
 attribs	[ 0	locks=0 ]	(	*	)
 updatenmls	[ 0	locks=0 ]	(	"off"	)
 updateaffectednmls	[ 0	locks=0 ]	(	"on"	)
@@ -4127,8 +4128,8 @@ spacing	[ 0	locks=0 ]	(	"arclengthuniform"	)
 externalspinesection	[ 0	locks=0 ]	(	0	)
 reversespinedirection	[ 0	locks=0 ]	(	"off"	)
 axialrotation	[ 0	locks=0 ]	(	0	)
-frontblend	[ 0	locks=0 ]	(	0.10000000000000001	)
-backblend	[ 0	locks=0 ]	(	0.10000000000000001	)
+frontblend	[ 0	locks=0 ]	(	0.1	)
+backblend	[ 0	locks=0 ]	(	0.1	)
 thicknesssection	[ 0	locks=0 ]	(	0	)
 thicknessscale	[ 0	locks=0 ]	(	1	)
 usethicknessattrib	[ 0	locks=0 ]	(	"on"	)
@@ -4252,6 +4253,7 @@ nonplanar	[ 0	locks=0 ]	(	"off"	)
 nonplanartol	[ 0	locks=0 ]	(	0.001	)
 dir	[ 0	locks=0 ]	(	0	0	1	)
 angle	[ 0	locks=0 ]	(	180	)
+oppositenormals	[ 0	locks=0 ]	(	"off"	)
 switcher5	[ 0	locks=0 ]	(	0	)
 groupedges	[ 0	locks=0 ]	(	"on"	)
 dominedgeangle	[ 0	locks=0 ]	(	"off"	)
@@ -4413,7 +4415,7 @@ snappointpos	[ 0	locks=0 ]	(	"on"	)
 snappointattribs	[ 0	locks=0 ]	(	"off"	)
 pointattribnames	[ 0	locks=0 ]	(	""	)
 gridtype	[ 0	locks=0 ]	(	"spacing"	)
-gridspacing	[ 0	locks=0 ]	(	0.10000000000000001	0.10000000000000001	0.10000000000000001	)
+gridspacing	[ 0	locks=0 ]	(	0.1	0.1	0.1	)
 gridlines	[ 0	locks=0 ]	(	10	10	10	)
 gridpow2	[ 0	locks=0 ]	(	3	3	3	)
 gridoffset	[ 0	locks=0 ]	(	0	0	0	)
@@ -4806,11 +4808,11 @@ Content-Type: text/plain
 	autofit := 0;
 	color := "UT_Color RGB 0.89 0.412 0.761 ";
 	comment := "";
-	height := 0.70000001192092753;
+	height := 0.7000000119209275;
 	minimized := 0;
 	width := 1.8000000000000007;
 	x_position := -2.1658051707534702;
-	y_position := 7.5349218460378342;
+	y_position := 7.534921846037834;
 }
 {
   create -1
@@ -7013,7 +7015,7 @@ deleteallcolorattribs	[ 0	locks=0 ]	(	"off"	)
 enable	[ 0	locks=0 ]	(	"on"	)
 class	[ 0	locks=0 ]	(	2	)
 colortype	[ 0	locks=0 ]	(	0	)
-color	[ 0	locks=0 ]	(	0.20000000000000001	0.20000000000000001	0.20000000000000001	)
+color	[ 0	locks=0 ]	(	0.2	0.2	0.2	)
 seed	[ 0	locks=0 ]	(	0	)
 rampattribute	[ 0	locks=0 ]	(	""	)
 ramprange	[ 0	locks=0 ]	(	0	1	)
@@ -7115,6 +7117,7 @@ nonplanar	[ 0	locks=0 ]	(	"off"	)
 nonplanartol	[ 0	locks=0 ]	(	0.001	)
 dir	[ 0	locks=0 ]	(	0	0	1	)
 angle	[ 0	locks=0 ]	(	180	)
+oppositenormals	[ 0	locks=0 ]	(	"off"	)
 switcher5	[ 0	locks=0 ]	(	0	)
 groupedges	[ 0	locks=0 ]	(	"off"	)
 dominedgeangle	[ 0	locks=0 ]	(	"off"	)
@@ -7211,6 +7214,7 @@ usenewname	[ 0	locks=0 ]	(	"off"	)
 newname	[ 0	locks=0 ]	(	""	)
 class	[ 0	locks=0 ]	(	"guess"	)
 copyvariable	[ 0	locks=0 ]	(	"on"	)
+copydata	[ 0	locks=0 ]	(	"on"	)
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
@@ -8100,6 +8104,7 @@ unload	[ 0	locks=0 ]	(	"always"	)
 primarypath	[ 0	locks=0 ]	(	""	)
 forcerecompile	[ 0	locks=0 ]	(	0	)
 delayillegal	[ 0	locks=0 ]	(	"off"	)
+fallback	[ 0	locks=0 ]	(	"off"	)
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
@@ -8877,6 +8882,7 @@ prexform_r	[ 0	locks=0 ]	(	0	0	0	)
 prexform_s	[ 0	locks=0 ]	(	1	1	1	)
 prexform_shear	[ 0	locks=0 ]	(	0	0	0	)
 movecentroid	[ 0	locks=0 ]	(	0	)
+movepivot	[ 0	locks=0 ]	(	0	)
 attribs	[ 0	locks=0 ]	(	*	)
 updatenmls	[ 0	locks=0 ]	(	"off"	)
 updateaffectednmls	[ 0	locks=0 ]	(	"on"	)
@@ -9074,8 +9080,8 @@ spacing	[ 0	locks=0 ]	(	"arclengthuniform"	)
 externalspinesection	[ 0	locks=0 ]	(	0	)
 reversespinedirection	[ 0	locks=0 ]	(	"off"	)
 axialrotation	[ 0	locks=0 ]	(	0	)
-frontblend	[ 0	locks=0 ]	(	0.10000000000000001	)
-backblend	[ 0	locks=0 ]	(	0.10000000000000001	)
+frontblend	[ 0	locks=0 ]	(	0.1	)
+backblend	[ 0	locks=0 ]	(	0.1	)
 thicknesssection	[ 0	locks=0 ]	(	0	)
 thicknessscale	[ 0	locks=0 ]	(	1	)
 usethicknessattrib	[ 0	locks=0 ]	(	"on"	)
@@ -9199,6 +9205,7 @@ nonplanar	[ 0	locks=0 ]	(	"off"	)
 nonplanartol	[ 0	locks=0 ]	(	0.001	)
 dir	[ 0	locks=0 ]	(	0	0	1	)
 angle	[ 0	locks=0 ]	(	180	)
+oppositenormals	[ 0	locks=0 ]	(	"off"	)
 switcher5	[ 0	locks=0 ]	(	0	)
 groupedges	[ 0	locks=0 ]	(	"on"	)
 dominedgeangle	[ 0	locks=0 ]	(	"off"	)
@@ -9360,7 +9367,7 @@ snappointpos	[ 0	locks=0 ]	(	"on"	)
 snappointattribs	[ 0	locks=0 ]	(	"off"	)
 pointattribnames	[ 0	locks=0 ]	(	""	)
 gridtype	[ 0	locks=0 ]	(	"spacing"	)
-gridspacing	[ 0	locks=0 ]	(	0.10000000000000001	0.10000000000000001	0.10000000000000001	)
+gridspacing	[ 0	locks=0 ]	(	0.1	0.1	0.1	)
 gridlines	[ 0	locks=0 ]	(	10	10	10	)
 gridpow2	[ 0	locks=0 ]	(	3	3	3	)
 gridoffset	[ 0	locks=0 ]	(	0	0	0	)
@@ -11657,6 +11664,7 @@ usenewname	[ 0	locks=0 ]	(	"off"	)
 newname	[ 0	locks=0 ]	(	""	)
 class	[ 0	locks=0 ]	(	"guess"	)
 copyvariable	[ 0	locks=0 ]	(	"on"	)
+copydata	[ 0	locks=0 ]	(	"on"	)
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
@@ -12320,6 +12328,7 @@ unload	[ 0	locks=0 ]	(	"always"	)
 primarypath	[ 0	locks=0 ]	(	""	)
 forcerecompile	[ 0	locks=0 ]	(	0	)
 delayillegal	[ 0	locks=0 ]	(	"off"	)
+fallback	[ 0	locks=0 ]	(	"off"	)
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
@@ -12745,6 +12754,7 @@ prexform_r	[ 0	locks=0 ]	(	0	0	0	)
 prexform_s	[ 0	locks=0 ]	(	1	1	1	)
 prexform_shear	[ 0	locks=0 ]	(	0	0	0	)
 movecentroid	[ 0	locks=0 ]	(	0	)
+movepivot	[ 0	locks=0 ]	(	0	)
 attribs	[ 0	locks=0 ]	(	*	)
 updatenmls	[ 0	locks=0 ]	(	"off"	)
 updateaffectednmls	[ 0	locks=0 ]	(	"on"	)
