@@ -1,4 +1,4 @@
-= SideFX Education Tools =
+= SideFX EDU | Education Driven Utilities =
 #icon: /images/sidefxedu.svg
 
 """SideFX EDU are tools designed to assist Houdini instructors in building pedagogical contents and teach Houdini."""
