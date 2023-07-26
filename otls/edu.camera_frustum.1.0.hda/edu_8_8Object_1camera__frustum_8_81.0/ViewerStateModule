@@ -90,7 +90,6 @@ class State(object):
 
 
 def createViewerStateTemplate():
-    print(hou.pwd().hdaModule())
     state_typename = "edu::camera_frustum::1.0"
     state_label = "EDU Camera Frustum State"
     state_cat = hou.objNodeTypeCategory()
