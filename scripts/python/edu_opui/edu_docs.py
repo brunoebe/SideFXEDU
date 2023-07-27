@@ -68,7 +68,7 @@ def writeTemplates(helpfile, templates, indent):
 
         if(temp.type() == hou.parmTemplateType.Folder):
             helpfile.write(prefix + indent + " " + temp.label() + " " + indent +"\n\n")
-            writeTemplates( temp.parmTemplates(), "===" )
+            writeTemplates( helpfile, temp.parmTemplates(), "===" )
         else:
             if(len(temp.label()) > 0):
                 helpfile.write(prefix + temp.label() + ":\n")
