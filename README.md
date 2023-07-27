@@ -42,6 +42,7 @@ SideFX EDU *optionally* collects data about what tools are used through Google A
 ## Contributors
 ### SideFX Education and Training Team
 - Bruno Ébé
+- Peter Arcara
 
 ### Instructors Community
 - Albert Szostkiewicz
