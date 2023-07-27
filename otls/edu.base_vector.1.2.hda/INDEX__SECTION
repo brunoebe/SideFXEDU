@@ -1,7 +1,7 @@
-Operator:     edu::base_vector::1.1
+Operator:     edu::base_vector::1.2
 Label:        EDU Base Vector
-Path:         oplib:/edu::Sop/base_vector::1.1?edu::Sop/base_vector::1.1
-Icon:         opdef:/edu::Sop/base_vector::1.1?IconSVG
+Path:         oplib:/edu::Sop/base_vector::1.2?edu::Sop/base_vector::1.2
+Icon:         opdef:/edu::Sop/base_vector::1.2?IconSVG
 Table:        Sop
 License:      
 Extra:        inputcolors='1 "RGB 0.700195 0.700195 0.700195" ' outputcolors='1 "RGB 0.700195 0.700195 0.700195" ' 
@@ -11,5 +11,5 @@ Outputs:      2
 Subnet:       true
 Python:       false
 Empty:        false
-Modified:     Tue Jul 25 18:26:15 2023
+Modified:     Thu Jul 27 12:58:03 2023
 

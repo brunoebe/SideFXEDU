@@ -46,8 +46,25 @@ WARNING:
         #id: merge
         Whether or not to merge the vector to the input geometry.
     
+    Show label:
+        #id: show_label
+        Whether or not to display a label.
+        
+    Label:
+        #id: label
+        If 'Show label' is on, what label to show.
+        
+    Fit label to arrow:
+        #id: doscale
+        Whether or not to fit the label text to the arrow.
+        
+    Uniform scale:
+        #id: scale2
+        A uniform scale applied to the label text object.
+        
 @related
 - [EDU Create Matrix Attribute | /nodes/sop/edu--create_matrix_attribute-1.0 ]
 - [EDU Gnomon | /nodes/sop/edu--gnomon-1.0 ]
 - [EDU Matrix Visualizer | /nodes/sop/edu--matrix_visualizer-1.0 ]
 - [EDU Transform by Matrix | /nodes/sop/edu--transform_by_matrix-1.0 ]
+        
