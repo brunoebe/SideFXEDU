@@ -1,5 +1,5 @@
 {
-	"values":["19.5.686","1"
+	"values":["19.5.689","1"
 	],
 	"indexes":{
 		"hdaroot/null1.userdata":0,
@@ -32,8 +32,8 @@
 		"hdaroot/SCENE/MAT/Glass/output_collect.userdata":0,
 		"hdaroot/SCENE/MAT/Glass/displacement_globals.userdata":0,
 		"hdaroot/SCENE/MAT/Glass/surface_globals.userdata":0,
-		"hdaroot/SCENE/transform6.userdata":0,
 		"hdaroot/SCENE/MAT/Glass.userdata":0,
+		"hdaroot/SCENE/transform6.userdata":0,
 		"hdaroot/MAT/static/surface_globals.userdata":0,
 		"hdaroot/PIXELS/matnet1/constant/switch1.userdata":0,
 		"hdaroot/PIXELS/matnet1/constant/Ce.userdata":0,

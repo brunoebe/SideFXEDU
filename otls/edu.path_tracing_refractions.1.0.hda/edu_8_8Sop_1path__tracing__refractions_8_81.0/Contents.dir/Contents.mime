@@ -32,7 +32,7 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment "Education tool"
-position -1.4302 -6.07015
+position 0 -1.6115
 connectornextid 0
 flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on displaycomment on
 outputsNamed3
@@ -4869,76 +4869,6 @@ Content-Type: text/plain
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.init"
-Content-Type: text/plain
-
-type = testgeometry_rubbertoy
-matchesdef = 1
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.def"
-Content-Type: text/plain
-
-sopflags sopflags = 
-comment ""
-position 1.51107 -4.3401
-connectornextid 1
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
-outputsNamed3
-{
-0 "output1"
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create -1
-  modify -1
-  author sidefx@asterix.local
-  access 0777
-}
-color UT_Color RGB 0.52 0.8 0.9 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-t	[ 0	locks=0 ]	(	3	4	7	)
-r	[ 0	locks=0 ]	(	15	90	34	)
-uniformscale	[ 0	locks=0 ]	(	6	)
-difficulty	[ 0	locks=0 ]	(	"hard"	)
-addshader	[ 0	locks=0 ]	(	"on"	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":""
-	},
-	"___toolcount___":{
-		"type":"string",
-		"value":"1"
-	},
-	"___toolid___":{
-		"type":"string",
-		"value":"sop_testgeometry_rubbertoy"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="hdaroot/MAT.init"
 Content-Type: text/plain
 
@@ -7840,6 +7770,76 @@ Content-Type: text/plain
 	"___Version___":{
 		"type":"string",
 		"value":"___EXTERNAL___"
+	}
+}
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.init"
+Content-Type: text/plain
+
+type = testgeometry_rubbertoy
+matchesdef = 1
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.def"
+Content-Type: text/plain
+
+sopflags sopflags = 
+comment ""
+position 1.51107 -4.3401
+connectornextid 1
+flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
+outputsNamed3
+{
+0 "output1"
+}
+inputsNamed3
+{
+}
+inputs
+{
+}
+stat
+{
+  create -1
+  modify -1
+  author sidefx@asterix.local
+  access 0777
+}
+color UT_Color RGB 0.52 0.8 0.9 
+delscript ""
+exprlanguage hscript
+end
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.parm"
+Content-Type: text/plain
+
+{
+version 0.8
+t	[ 0	locks=0 ]	(	3	4	7	)
+r	[ 0	locks=0 ]	(	15	90	34	)
+uniformscale	[ 0	locks=0 ]	(	6	)
+difficulty	[ 0	locks=0 ]	(	"hard"	)
+addshader	[ 0	locks=0 ]	(	"on"	)
+}
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/SCENE/testgeometry_rubbertoy1.userdata"
+Content-Type: text/plain
+
+{
+	"___Version___":{
+		"type":"string",
+		"value":""
+	},
+	"___toolcount___":{
+		"type":"string",
+		"value":"1"
+	},
+	"___toolid___":{
+		"type":"string",
+		"value":"sop_testgeometry_rubbertoy"
 	}
 }
 

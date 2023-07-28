@@ -8,6 +8,7 @@
 	"hdaroot/normal2.def":1645764599,
 	"hdaroot/attribwrangle1.def":1645913987,
 	"hdaroot/attribwrangle5.def":1645762028,
+	"hdaroot/SCENE/testgeometry_rubbertoy1.def":1689782664,
 	"hdaroot/SCENE/merge1.def":1689782643,
 	"hdaroot/SCENE/OUT.def":1689780465,
 	"hdaroot/SCENE/reverse4.def":1645764651,
@@ -59,7 +60,6 @@
 	"hdaroot/PIXELS/matnet1/constant/uvcoords2/subinput1.def":1191445892,
 	"hdaroot/material2.def":1647370780,
 	"hdaroot/PIXELS/matnet1/constant/uvcoords2/suboutput1.def":1191445892,
-	"hdaroot/SCENE/testgeometry_rubbertoy1.def":1689782664,
 	"hdaroot/SCENE/material1.def":1647370764,
 	"hdaroot/PIXELS/matnet1/constant/uvcoords2/float2vec.def":1191368841,
 	"hdaroot/PIXELS/matnet1/constant/switch1.def":1642517799,
@@ -96,6 +96,6 @@
 	"hdaroot/SCENE/polyextrude1.def":1689686374,
 	"hdaroot/PIXELS/matnet1/constant/Ce.def":1238516157,
 	"hdaroot/MAT/static/surface_output.def":1647370800,
-	"hdaroot.def":1690194266,
+	"hdaroot.def":1690554187,
 	"hdaroot/PIXELS/matnet1/constant/map.def":1179716229
 }
